@@ -1,4 +1,4 @@
-# aider-nvim
+# toggleterm-aider
 
 A Neovim plugin for seamless integration with [aider](https://github.com/paul-gauthier/aider), an AI pair programming tool.
 
@@ -22,7 +22,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    'paul-gauthier/aider-nvim',
+    'psm14/toggleterm-aider',
     dependencies = {
         'akinsho/toggleterm.nvim',
         'nvim-tree/nvim-tree.lua', -- optional
