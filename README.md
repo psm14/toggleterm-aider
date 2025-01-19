@@ -11,7 +11,7 @@ A Neovim plugin for seamless integration with [aider](https://github.com/paul-ga
 
 ## Prerequisites
 
-- Neovim >= 0.5.0
+- Neovim >= 0.7.0
 - [toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim)
 - [nvim-tree.lua](https://github.com/nvim-tree/nvim-tree.lua) (optional, for tree integration)
 - [aider](https://github.com/paul-gauthier/aider) CLI tool
