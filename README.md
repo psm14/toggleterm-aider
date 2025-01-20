@@ -28,7 +28,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
         'nvim-tree/nvim-tree.lua', -- optional
     },
     config = function()
-        require('aider-nvim').setup()
+        require('toggleterm-aider').setup()
     end
 }
 ```
@@ -38,7 +38,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 The plugin can be configured with custom options:
 
 ```lua
-require('aider-nvim').setup({
+require('toggleterm-aider').setup({
     -- Custom aider CLI arguments (optional)
     args = "--no-pretty --no-auto-commit --watch-files",
     
