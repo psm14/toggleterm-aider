@@ -80,7 +80,7 @@ function M.setup(opts)
   
   -- Set up keymaps
   vim.keymap.set('n', opts.toggle_key or '<leader>as', aider_toggle, { desc = 'Toggle Aider terminal' })
-  vim.keymap.set('t', opts.toggle_key or '<leader>as', '<C-\\><C-n>:lua require("toggletree-aider").toggle()<CR>', { desc = 'Toggle Aider terminal' })
+  vim.keymap.set('t', opts.toggle_key or '<leader>as', '<C-\\><C-n>:lua require("toggleterm-aider").toggle()<CR>', { desc = 'Toggle Aider terminal' })
   vim.keymap.set('n', opts.add_key or '<leader>aa', aider_smart_add, { desc = 'Add file to Aider' })
   vim.keymap.set('n', opts.drop_key or '<leader>ad', aider_smart_drop, { desc = 'Drop file from Aider' })
 end

@@ -35,14 +35,14 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ## Configuration
 
-The plugin can be configured with custom options:
+The plugin works out of the box with sensible defaults, but can be customized with optional settings:
 
 ```lua
 require('toggleterm-aider').setup({
-    -- Custom aider CLI arguments (optional)
+    -- Custom aider CLI arguments
     args = "--no-pretty --no-auto-commit --watch-files",
     
-    -- Custom keymaps (optional)
+    -- Custom keymaps (defaults shown below)
     toggle_key = '<leader>as', -- Toggle aider terminal
     add_key = '<leader>aa',    -- Add file to aider
     drop_key = '<leader>ad'    -- Drop file from aider
