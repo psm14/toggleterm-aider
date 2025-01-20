@@ -22,14 +22,14 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    'psm14/toggleterm-aider',
-    dependencies = {
-        'akinsho/toggleterm.nvim',
-        'nvim-tree/nvim-tree.lua', -- optional
-    },
-    config = function()
-        require('toggleterm-aider').setup()
-    end
+  'psm14/toggleterm-aider',
+  dependencies = {
+    'akinsho/toggleterm.nvim',
+    'nvim-tree/nvim-tree.lua', -- optional
+  },
+  config = function()
+    require('toggleterm-aider').setup()
+  end
 }
 ```
 
@@ -39,13 +39,13 @@ The plugin works out of the box with sensible defaults, but can be customized wi
 
 ```lua
 require('toggleterm-aider').setup({
-    -- Custom aider CLI arguments
-    args = "--no-pretty --no-auto-commit --no-gitignore --watch-files",
-    
-    -- Custom keymaps (defaults shown below)
-    toggle_key = '<leader>as', -- Toggle aider terminal
-    add_key = '<leader>aa',    -- Add file to aider
-    drop_key = '<leader>ad'    -- Drop file from aider
+  -- Custom aider CLI arguments
+  args = "--no-pretty --no-auto-commit --no-gitignore --watch-files",
+  
+  -- Custom keymaps (defaults shown below)
+  toggle_key = '<leader>as', -- Toggle aider terminal
+  add_key = '<leader>aa',    -- Add file to aider
+  drop_key = '<leader>ad'    -- Drop file from aider
 })
 ```
 
