@@ -40,7 +40,7 @@ The plugin works out of the box with sensible defaults, but can be customized wi
 ```lua
 require('toggleterm-aider').setup({
     -- Custom aider CLI arguments
-    args = "--no-pretty --no-auto-commit --watch-files",
+    args = "--no-pretty --no-auto-commit --no-gitignore --watch-files",
     
     -- Custom keymaps (defaults shown below)
     toggle_key = '<leader>as', -- Toggle aider terminal
